@@ -61,7 +61,7 @@ class Mustache{
         $localData = array(
             'site' =>array(
                 'url' => base_url(),
-                'name' => 'CIS Skeleton Application'
+                'name' => 'CodeIgniterMustache Project'
             ),
             'form' =>array(
                 'open' => form_open($this->CI->uri->segment(1) .'/'. $this->CI->router->fetch_class() .'/'. $this->CI->router->fetch_method()),
